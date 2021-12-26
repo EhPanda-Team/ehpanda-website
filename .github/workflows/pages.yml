@@ -29,7 +29,8 @@ jobs:
       #     key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
       #     restore-keys: |
       #       ${{ runner.os }}-node-
-
+      
+      - run: yarn global add @vue/cli
       - run: yarn run build
 
       - name: Deploy
