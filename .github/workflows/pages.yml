@@ -10,7 +10,7 @@ on:
       - main
 
 jobs:
-  deploy:
+  Deploy:
     runs-on: ubuntu-20.04
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
@@ -22,19 +22,17 @@ jobs:
         with:
           node-version: '14'
 
-      - name: Cache dependencies
-        uses: actions/cache@v2
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
+      # - name: Cache dependencies
+      #   uses: actions/cache@v2
+      #   with:
+      #     path: ???
+      #     key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
+      #     restore-keys: |
+      #       ${{ runner.os }}-node-
 
-      - run: npm ci
-      - run: npm test
-      - run: npm run generate
+      - run: yarn run build
 
-      - name: deploy
+      - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
