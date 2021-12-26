@@ -30,7 +30,7 @@ jobs:
       #     restore-keys: |
       #       ${{ runner.os }}-node-
       
-      - run: yarn global add @vue/cli-service
+      - run: yarn install
       - run: yarn run build
 
       - name: Deploy
