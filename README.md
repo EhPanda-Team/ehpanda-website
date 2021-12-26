@@ -1,4 +1,4 @@
-# ehpanda-vue
+# ehpanda-website
 
 ## Project setup
 ```
