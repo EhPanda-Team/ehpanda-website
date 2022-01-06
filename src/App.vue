@@ -129,7 +129,7 @@
       <object data="/img/swiftui.svg" type="image/svg+xml" class="w-72 h-72">swiftui</object>
   </section>
   <footer class="flex items-center justify-between w-screen text-xs text-white bg-gray-800 h-14">
-      <p class="ml-8 ">© 2021 荒木辰造. All rights reserved.</p>
+      <p class="ml-8 ">© 2022 荒木辰造. All rights reserved.</p>
       <a class="hidden mr-8 md:flex" href="mailto:kendellcarol@gmail.com">
           <fa-icon icon="envelope" size="md" class="mt-0.5 mr-1" />
           <p>kendellcarol@gmail.com</p>
