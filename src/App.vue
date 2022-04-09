@@ -2,7 +2,7 @@
   <nav class="fixed flex items-center justify-between w-screen bg-white bg-opacity-50 opacity-0 backdrop-blur-2xl backdrop-filter dark:bg-black dark:bg-opacity-10 h-14">
       <p class="ml-8 text-2xl font-semibold text-black opacity-90 dark:text-white">EhPanda</p>
       <div class="flex mr-8 opacity-90">
-        <a href="https://github.com/tatsuz0u/EhPanda">
+        <a href="https://github.com/EhPanda-Team/EhPanda">
             <fa-icon :icon="['fab', 'github']" class="plain-icon" />
         </a>
         <a href="https://discord.gg/BSBE9FCBTq">
@@ -19,7 +19,7 @@
           <h1 class="pt-8 text-5xl font-medium text-black dark:text-white">EhPanda</h1>
           <h2 class="pb-10 font-light text-black dark:text-gray-300 app-desc">{{ $t("desc.app") }}</h2>
           <div class="flex flex-col w-60">
-            <a href="https://github.com/tatsuz0u/EhPanda" class="button-container flex-grow">
+            <a href="https://github.com/EhPanda-Team/EhPanda" class="button-container flex-grow">
                 <fa-icon :icon="['fab', 'github']" class="button-icon" />
                 <p class="button-label">GitHub</p>
             </a>
