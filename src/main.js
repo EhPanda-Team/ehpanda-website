@@ -30,7 +30,7 @@ const messages = {
         },
         desc: {
             app: 'An unofficial E-Hentai app for iOS.',
-            system: 'Requires iOS / iPadOS 15.0 or later.',
+            system: 'Requires iOS / iPadOS 16.0 or later.',
             swiftui: 'Smooth, elegant, powerful.',
             cat_ele_category: 'EhPanda supports almost every E-Hentai categories. Download feature is not available at present though.',
             cat_ele_detail: 'Help you know more about this gallery and find more associated contents.',
@@ -63,7 +63,7 @@ const messages = {
         },
         desc: {
             app: 'Eine inoffizielle E-Hentai app für iOS.',
-            system: 'Erfordert iOS / iPadOS 15.0 oder neuer.',
+            system: 'Erfordert iOS / iPadOS 16.0 oder neuer.',
             swiftui: 'Einfach, Elegant, Mächtig.',
             cat_ele_category: 'EhPanda unterstützt fast alle E-Hentai Kategorien.',
             cat_ele_detail: 'helfen dir, mehr über Galerien zu erfahren und ähnliche zu finden',
@@ -96,7 +96,7 @@ const messages = {
         },
         desc: {
             app: 'iOS의 비공식 E-Hentai 에플리케이션',
-            system: 'iOS / iPadOS 15.0 이상',
+            system: 'iOS / iPadOS 16.0 이상',
             swiftui: 'Smooth, elegant, powerful.',
             cat_ele_category: 'EhPanda가 거의 모두 E-Hentai의 카테고리에 가능합니다. 다로운드 기능 지금까지 제공하지 못 합니다.',
             cat_ele_detail: '이 갤러리를 알아보기와 유사한 내용을 찾아보기에 도움을 제공해드립니다.',
@@ -129,7 +129,7 @@ const messages = {
         },
         desc: {
             app: 'iOS の非公式 E-Hentai アプリ',
-            system: 'iOS・iPadOS 15.0 以上であることが必要です。',
+            system: 'iOS・iPadOS 16.0 以上であることが必要です。',
             swiftui: '素早く、優雅で、パワフル。',
             cat_ele_category: 'EhPanda は、ほとんどの E-Hentai カテゴリーを対応しています。ダウンロード機能はまだです。',
             cat_ele_detail: '特定のギャラリーについての情報やその関連コンテンツを探すには、この機能がお力添えになるでしょう。',
@@ -162,7 +162,7 @@ const messages = {
         },
         desc: {
             app: 'iOS 的非官方 E-Hentai 應用程式',
-            system: '須使用 iOS / iPadOS 15.0 或以上。',
+            system: '須使用 iOS / iPadOS 16.0 或以上。',
             swiftui: '流暢、優雅、強大。',
             cat_ele_category: 'EhPanda 幾乎支援所有 E-Hentai 分類類型。目前尚未支援下載功能。',
             cat_ele_detail: '幫助你瞭解這個畫廊、搜尋更多相似內容。',
@@ -195,7 +195,7 @@ const messages = {
         },
         desc: {
             app: 'iOS 的非官方 E-Hentai 应用程序',
-            system: '要求iOS / iPadOS 15.0 或以上。',
+            system: '要求iOS / iPadOS 16.0 或以上。',
             swiftui: '流畅、优雅、强大。',
             cat_ele_category: 'EhPanda 对 E-Hentai 几乎所有的分类提供了支持。下载功能目前尚未实装。',
             cat_ele_detail: '帮助你了解这个画廊、查找更多相似内容。',
