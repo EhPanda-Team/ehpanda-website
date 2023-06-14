@@ -5,6 +5,9 @@
         <a href="https://github.com/EhPanda-Team/EhPanda">
             <fa-icon :icon="['fab', 'github']" class="plain-icon" />
         </a>
+        <a href="https://twitter.com/ehpandaapp">
+            <fa-icon :icon="['fab', 'twitter']" class="ml-4 plain-icon" />
+        </a>
         <a href="https://discord.gg/BSBE9FCBTq">
             <fa-icon :icon="['fab', 'discord']" class="ml-4 plain-icon" />
         </a>
@@ -19,16 +22,22 @@
           <h1 class="pt-8 text-5xl font-medium text-black dark:text-white">EhPanda</h1>
           <h2 class="pb-10 font-light text-black dark:text-gray-300 app-desc">{{ $t("desc.app") }}</h2>
           <div class="flex flex-col w-60">
-            <a href="https://github.com/EhPanda-Team/EhPanda" class="button-container flex-grow">
-                <fa-icon :icon="['fab', 'github']" class="button-icon" />
-                <p class="button-label">GitHub</p>
-            </a>
             <div class="flex mt-2">
-                <a href="https://discord.gg/BSBE9FCBTq" class="button-container flex-grow">
+                <a href="https://github.com/EhPanda-Team/EhPanda" class="button-container flex-grow w-1/2">
+                    <fa-icon :icon="['fab', 'github']" class="button-icon" />
+                    <p class="button-label">GitHub</p>
+                </a>
+                <a href="https://twitter.com/ehpandaapp" class="ml-2 button-container flex-grow w-1/2">
+                    <fa-icon :icon="['fab', 'twitter']" class="button-icon" />
+                    <p class="button-label">Twitter</p>
+                </a>
+            </div>
+            <div class="flex mt-2">
+                <a href="https://discord.gg/BSBE9FCBTq" class="button-container flex-grow w-1/2">
                     <fa-icon :icon="['fab', 'discord']" class="button-icon" />
                     <p class="button-label">Discord</p>
                 </a>
-                <a href="https://t.me/ehpanda" class="ml-2 button-container flex-grow">
+                <a href="https://t.me/ehpanda" class="ml-2 button-container flex-grow w-1/2">
                     <fa-icon :icon="['fab', 'telegram']" class="button-icon" />
                     <p class="button-label">Telegram</p>
                 </a>
@@ -129,11 +138,7 @@
       <object data="/img/swiftui.svg" type="image/svg+xml" class="w-72 h-72">swiftui</object>
   </section>
   <footer class="flex items-center justify-between w-screen text-xs text-white bg-gray-800 h-14">
-      <p class="ml-8 ">© 2023 荒木辰造. All rights reserved.</p>
-      <a class="hidden mr-8 md:flex" href="mailto:kendellcarol@gmail.com">
-          <fa-icon icon="envelope" size="md" class="mt-0.5 mr-1" />
-          <p>kendellcarol@gmail.com</p>
-      </a>
+      <p class="ml-8 ">© 2023 EhPanda Team. All rights reserved.</p>
   </footer>
 </template>
 

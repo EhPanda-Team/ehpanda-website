@@ -6,6 +6,7 @@ import { createI18n } from 'vue-i18n'
 import { library } from "@fortawesome/fontawesome-svg-core"
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub'
+import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter'
 import { faDiscord } from '@fortawesome/free-brands-svg-icons/faDiscord'
 import { faTelegram } from '@fortawesome/free-brands-svg-icons/faTelegram'
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons/faEnvelope"
@@ -218,6 +219,7 @@ const i18n = createI18n({
 })
 
 library.add(faGithub)
+library.add(faTwitter)
 library.add(faDiscord)
 library.add(faTelegram)
 library.add(faEnvelope)
